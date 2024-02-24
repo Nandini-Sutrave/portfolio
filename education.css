@@ -1,0 +1,55 @@
+h1{
+    text-align:center;
+    font-size:100px;
+    font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.school{
+    
+    display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  border:5px solid black;
+  
+}
+.junior{
+    display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  border:5px solid black;
+  position:relative;
+  top:10px;
+ 
+}
+.college{
+    display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  border:5px solid black;
+  position:relative;
+  top:20px;
+  
+}
+.p1 {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+    color:#290001;
+  }
+  .p2 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:35px;
+    color:#87431D;
+  }
+  img{
+    margin-left:5px;
+    margin-top:5px;
+  }
+  

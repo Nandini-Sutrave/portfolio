@@ -1,0 +1,127 @@
+header{
+    background-color:#030637;
+}
+.glow{
+    text-align:center;
+    color:whitesmoke;
+    font-size:90px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #e4a2f8, 0 0 20px #e4a2f8, 0 0 30px #9400FF, 0 0 40px #9400FF, 0 0 50px #9400FF, 0 0 60px #9400FF, 0 0 70px #9400FF;
+    }
+    
+    to {
+        text-shadow: 0 0 15px #fff, 0 0 30px #e4a2f8, 0 0 40px #c364f6 , 0 0 50px #c364f6, 0 0 60px #c364f6, 0 0 70px #c364f6, 0 0 75px #c364f6;
+    }
+  }
+  .button{
+    background-color:#9400FF;
+    border: none;
+    color:white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+   
+  }
+  div.buttongroup{
+    margin-left:30%;
+    padding:20px;  
+  }
+  .button:hover {background-color:#e4a2f8}
+  .button:active {
+    background-color:#e4a2f8;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+  }
+  main{
+    background-color:#16003B;
+  }
+  img{
+    border-radius:50%;
+    margin-left:25%;
+  }
+  #p1 {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:60px;
+    color:white;
+    animation: slideUp 1.3s ease-in-out forwards .8s;
+  }
+  #p2{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size:30px;
+  color:white;
+  animation: slideUp 1.3s ease-in-out forwards .8s;
+}
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  animation: expand 1.3s ease forwards;
+  transition: all 1.3s ease;
+   }
+   .container_content {
+    width: 50%;
+   }
+   
+   .container_content_inner {
+     width: 80%;
+     margin-left: 80px;
+   }
+   
+   .container_outer_img {
+     margin: 50px;
+     width: 50%;
+     overflow: hidden;
+   }   
+       
+   .container_img {
+     width: 100%;
+     animation: slideIn 2.2s ease-in-out forwards;
+   }
+   @keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+  
+  
+  
+  @keyframes expand {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  footer{
+    text-align:center;
+    background-color:black;
+    font-size:50px;
+    padding:10px;
+    
+  }
+ 
+  
+  
